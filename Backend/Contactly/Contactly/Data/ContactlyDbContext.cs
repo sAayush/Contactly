@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 namespace Contactly.Data
 {
     public class ContactlyDbContext : DbContext
-    {
+    {   
         public ContactlyDbContext(DbContextOptions options) : base(options)
         {
         }
